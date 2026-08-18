@@ -21,10 +21,12 @@ on:
     branches:
       - main
       - 'feature/**'
+      - test
   push:
     branches:
       - main
       - 'feature/**'
+      - test
   
 env:
   DEP_DIR: ${{ github.workspace }}/__deps
